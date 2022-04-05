@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+background-color:rgba(128, 128, 128, 0.7);
+display: flex;
+width: 100vw;
+min-height: 100vh;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding: 100px;
+color: aliceblue;
+}
+
+#title{
+    font-size: 2.5rem;
+}
+#description{
+    font-family: 'Source Serif 4', sans-serif;
+    font-size: 18px;
+    margin: 20px auto;
+}
+
+.form-elements{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    flex-direction: column;
+    padding: 5px;
+    
+}
+form{
+    max-width: 1000px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 10px;
+}
+p{
+    font-size: 20px;
+}
+#name-label{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+#email-label{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+#number-label{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+#submit{
+    font-size: 20px;
+    position: relative;
+    left: 220px;
+    margin-bottom: 40px;
+    block-size: 40px;
+    width: 100px;
+    
+}
+#name{
+    block-size: 30px;
+    padding: 10px;
+}
+#email{
+    block-size: 30px;
+    padding: 10px;
+}
+#number{
+    block-size: 30px;
+    padding: 10px;
+}
+#dropdown{
+    block-size: 30px;
+   
+}
+#text-area{
+    padding: 10px;
+}
+.form-elements p{
+    padding-bottom: 10px;
+}
